@@ -7,7 +7,8 @@ import org.openqa.selenium.support.PageFactory;
 import com.qa.testBase.TestBase;
 
 public class DalalLoginPage extends TestBase {
-	
+	// This is dalalLoginPage
+	//in which we extends testbase class
 	public DalalLoginPage(){
 	        PageFactory.initElements(driver, this);
 	    }
